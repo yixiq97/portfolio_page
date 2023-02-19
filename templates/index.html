@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio Website of Yixi</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;family=Roboto:wght@300;400;500;700&amp;display=swap"/>
+    </noscript>
+    <link href="css/font-awesome/css/all.min.css?ver=1.2.1" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/mdb.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/aos.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static',filename='css/main.css') }}" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body class="bg-light" id="top">
+    <header class="d-print-none">
+      <div class="container text-center text-lg-left">
+        <div class="pt-4 clearfix">
+          <h1 class="site-title mb-0">Yixi Qiu</h1>
+          <div class="site-nav"> 
+            <nav role="navigation">
+              <ul class="nav justify-content-center">
+                <li class="nav-item"><a class="nav-link" href="#about" title="About"><span class="menu-title">About</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#projects" title="Projects"><span class="menu-title">Projects</span></a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#writings" title="Writings"><span class="menu-title">Writings</span></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="page-content">
+      <div class="container">
+<div class="resume-container">
+  <div class="shadow-1-strong bg-white my-5" id="intro">
+    <div class="bg-info text-white">
+      <div class="cover bg-image"><img src="static/images/header-background.jpg"/>
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.7);backdrop-filter: blur(2px);">
+          <div class="text-center p-5">
+            <div class="avatar p-1"><img class="img-thumbnail shadow-2-strong" src="static/images/avatar.jpg" width="160" height="160"/></div>
+            <div class="header-bio mt-3">
+              <div data-aos="zoom-in" data-aos-delay="0">
+                <h2 class="h1">Yixi Qiu</h2>
+                <p>CFA Level 2 Candidate | Data Analyst | Policy Researcher</p>
+              </div>
+              <div class="d-print-none">
+                <a class="btn btn-info btn-lg shadow-sm mt-1" href="{{ url_for('static',filename='Resume_DA_EN.pdf') }}" data-aos="fade-right" data-aos-delay="700">Resume  (EN)</a>
+                <a class="btn btn-info btn-lg shadow-sm mt-1" href="{{ url_for('static',filename='Resume_ZH.pdf') }}" data-aos="fade-right" data-aos-delay="700">Resume  (ZH)</a>
+            </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="about">
+    <div class="about-section">
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="h2 fw-light mb-4">About Me</h2>
+          <p>Hello! I’m Yixi. A data-driven problem-solver and decision-maker. Areas I’m particularly interested in are economic inequality, tech regulation, and primary market research.</p> <!--<strong>data analyst</strong>-->
+          <p>I am skilled in synthesizing primary research findings and secondary research intelligence. I am also a quick learner and a team worker that gets the job done.
+        </div>
+        <div class="col-md-5 offset-lg-1">
+          <div class="row mt-2">
+            <h2 class="h2 fw-light mb-4">Bio</h2>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="far fa-calendar-alt pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Age</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">25</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="far fa-envelope pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Email</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">qiuyx97@gmail.com</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fab fa-skype pe-2 text-muted" style="width:24px;opacity:0.85;"></i> WeChat</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">yixi_q</div>
+            </div>
+            <div class="col-sm-5">
+              <div class="pb-2 fw-bolder"><i class="fas fa-phone pe-2 text-muted" style="width:24px;opacity:0.85;"></i> Phone</div>
+            </div>
+            <div class="col-sm-7">
+              <div class="pb-2">+1 508-981-8151</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shadow-1-strong bg-white my-5 p-5" id="projects">
+    <div class="projects-section">
+      <h2 class="h2 fw-light mb-4">Projects</h2>
+      <div class="timeline">
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="0">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">U.S. National Debt Dashboard
+              <span class="text-muted h6">
+                <a href="https://us-national-debt.onrender.com/">Updated Monthly</a>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">Feb., 2023</div>
+            <div>This dashboard integrates basic facts of U.S. national debts, including (average) interest rate, bond amount as well as the deficit amount of government requested from the FiscalDate API. Indexes derived from datasets helps to indicate the economic environment.</div>
+          </div>
+        </div>
+        <div class="timeline-card timeline-card-success" data-aos="fade-in" data-aos-delay="200">
+          <div class="timeline-head px-4 pt-3">
+            <div class="h5">Congressional Records Tracking Dashboard
+              <span class="text-muted h6">
+                <a href="https://crec-daily.herokuapp.com/">Updated Daily</a>
+                and
+                <a href="https://crec-nlp.onrender.com/">Updated Monthly</a>
+              </span>
+            </div>
+          </div>
+          <div class="timeline-body px-4 pb-4">
+            <div class="text-muted text-small mb-3">Jan., 2023</div>
+             <div>This dashboard helps to identify emerging political based trends on congressional records data requested from GovInfo API. Main analytical skills employed are exploratory analysis and NLP techniques.</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  <div class="shadow-1-strong bg-white my-5 p-5 d-print-none" id="writings">
+    <div class="writings-section">
+      <h2 class="h2 fw-light mb-4">Writings</h2>
+      <div class="row g-0" style="width:200%">
+
+        <!--
+        <div class="col-md-6"><a href="https://dribbble.com/" target="_blank"><img class="img-fluid" src="static/images/project-1.jpg" width="800" height="500"/></a></div>
+        -->
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-left" data-aos-delay="100">
+          <div class="m-4 mt-md-2">
+            <p class="text-teal text-small">Behavioral economics / Public policy / Research methodologies</p>
+            <!--<h3>Photo Agency Website</h3>-->
+            <p class="text-muted">This article proposed behavioral policy alternatives to mitigate the identified affordable housing dilemma in the states. (Quasi-) experiment design to examine the potential impacts of proposed policies are also covered by this thought piece. </p>
+            <a class="btn btn-outline-dark btn-lg shadow-sm mt-1 me-3" href="{{ url_for('static',filename='TP3.pdf') }}" data-aos="fade-left" data-aos-delay="100">Download PDF</a>
+          </div>
+        </div>
+      </div>
+      <div class="row g-0" style="width:200%"> <!-- portfolio-reverse-->
+        <div class="col-md-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+          <div class="m-4 mt-md-2"> <!-- text-end-->
+            <p class="text-teal text-small">Consulting / Public policy / Municipal debt</p>
+            <!--<h3>Restaurant Website Design</h3>-->
+            <p class="text-muted">This is the policy recommendation to raise funding for affordable housing projects in Pennsylvania, including debt, TIF, and gap financing approaches. It also compromises an essential part of the final policy solution delivered to our client (PCRG).</p>
+            <a class="btn btn-outline-dark btn-lg shadow-sm mt-1 me-3" href="{{ url_for('static',filename='FundingCLTs.pdf') }}" data-aos="fade-right" data-aos-delay="100">Download PDF</a>
+          </div>
+        </div>
+        <!--
+        <div class="col-md-6"><a href="https://www.behance.net/" target="_blank"><img class="img-fluid" src="static/images/project-2.jpg" width="800" height="500"/></a></div>
+        -->
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="pt-4 pb-4 text-muted text-center d-print-none">
+      <div class="container">
+        <div class="my-3">
+          <div class="h4">Yixi Qiu</div>
+        </div>
+        <div class="text-small">
+          <div class="mb-1">&copy; Material Resume. All rights reserved.</div>
+          <div>Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+        </div>
+      </div>
+    </footer>
+    <script src="{{ url_for('static',filename='scripts/mdb.min.js') }}"></script>
+    <script src="{{ url_for('static',filename='scripts/aos.js') }}"></script>
+    <script src="{{ url_for('static',filename='scripts/main.js') }}"></script>
+  </body>
+</html>
